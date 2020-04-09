@@ -1,1 +1,72 @@
+body {
+  background-color: #345678;
+  font: 12px #333 Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  overflow: scroll;
+}
+
+.main-container {
+  padding: 15%;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  cursor: pointer;
+}
+
+.bg {
+  background-color: #000;
+}
+
+.bg1 {
+  background-color: #008;
+}
+
+.outer-box {
+  border: 5px solid #f4f4f4;
+  padding: 0.5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex div,.keys {
+  border: 1px solid #f4f4f4;
+}
+
+.screen {
+  height: 5rem;
+  border: 0.2rem solid #f4f4f4;
+  margin-bottom: 0.6rem;
+}
+
+.row {
+  padding: 0.2rem;
+}
+
+#clear, #del {
+  color: red;
+}
+
+#operator {
+  float: left;
+  margin-top: 2.5rem;
+  padding: 0.5rem;
+}
+.box:hover {
+  background-color: coral;
+}
+
+#ans {
+  margin-top: 3rem;
+  margin-right: 1rem;
+  color: coral;
+  float: right;
+  font-weight: bold;
+}
 
